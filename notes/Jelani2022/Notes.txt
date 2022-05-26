@@ -14,7 +14,7 @@ cp <1> <2> - copy <file1> to <file2>
 cp -r <dir1> <dir2> - copy <dir1> to <dir2> , creates <dir2> if does not existing
 locate <file> - find all instinces of <file>
 
----Git Inputs--
+--Git Inputs--
 git init, intialize an existing directory as a git repository
 git clone <url>, retrieve an existing repository from a remote location
 git status,  shows modified files in working directory
@@ -33,3 +33,48 @@ git push,  transmit local branch commits to remote repository branch
 git push -u, 
 git pull, fetch and merge any commits from the tracking remote branch
 git rm <>, delete the file from a project and stage the removal for commit
+
+
+--The Internet--
+IP addresses - the internet protocol assigns numbers to each devise as a way to identify
+wifi is accessed thru unlicensed spectrum- Electromagnitic Frequencies
+Cellular is accesed thru cell service territories using licensed spectrum that is auctioned to cellular providers
+Cloud computing refers to computer experiences enabled thru internet services
+    working remotely instead of from the local device
+    lets users have a more seamless and convient experience w/ tech by allowing the cloud to handle technical details (file sync, software updates...)
+data is transfered thru packets
+    packets can hold up to 64kb of data
+    packets are transfered from users device to the server by breaking them up to transmit and put back together upon reaching the destination
+
+SSL (secure socket layers) is how web connections are securely maintained (encryption)
+Domain name gives users the ability to browse the web by named addresses rather than their true IP address
+
+The internet is basically a wire connecting servers. Servers are special computers holding code.
+personal computers are not directly connected to the internet, they are connected to ISP (internet service proivder) which are connected to the internet
+information being transfered are broken up into smaller packets that are put back together when it reached its destination
+everything connected directly or indireclty are assigned IP addresses ( computers, cell phones routers...)
+anywhere 2 or more parts of the internet itercect there is a router
+routers direct packets around the internet
+    say your packets are in a wrapper
+    your ip address is the first layer on that packet
+    as the packets move along thru routers, it collects those IP addresses until it gets to the server
+    same thing in reverse following the IP addresses until it gets back to your computer
+
+
+---Front end Development---
+3 core coding languages - HTML , CSS , & JavaScript
+--HTML--
+Hyper Text Markup Language
+language that determines how documents and web pages are displayed in a browser -> BUILDING BLOCKS OF ANY WEBSITE
+Defines Semantic Structure
+all text on page should be given meaning thru syntax as to how or what the text represents
+--CSS--
+Cascading Style Sheet
+language that determines howw a document created in HTML is styled (colors, font style, layout, and responsive features)
+improve the presentation/look of HTML elements
+--JavaScript--
+allows you to change CSS and HTML elements on your site after it has been loaded, giving you the ability to make your site more interactive and engaging for users
+dynamic, interpreted programming language that can add interactivity to a website
+
+Front end languages live and operate in the browser
+each of these languages performs seperate functions that work together to determine how the page is structured(HTML), how it looks(CSS), and how it functions(JavaScript)
