@@ -1,0 +1,15 @@
+--Command Line Inputs--
+pwd - shows current directory
+ls - list of current directory
+cd - goes to home directory
+cd <input>- change directory to <input>
+cd ../ - goes back one directory
+open <input) - open
+. - current folder
+.. - parent folder
+mkdir - make directory
+touch - create file
+mv <1> <2> - moves <file1> to <file2> if <file2> is an existing directory, renames <file1> to <file2> if not
+cp <1> <2> - copy <file1> to <file2>
+cp -r <dir1> <dir2> - copy <dir1> to <dir2> , creates <dir2> if does not existing
+locate <file> - find all instinces of <file>
